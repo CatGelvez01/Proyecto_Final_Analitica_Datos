@@ -50,6 +50,138 @@ Dado que el dataset excede el límite de 25 MB permitido por GitHub, no fue posi
 Link al proyecto completo 
 * https://uniandes-my.sharepoint.com/:f:/g/personal/ac_gelvez1783_uniandes_edu_co/IgC_NtThaH8ZToDHityGL7FUARKXvvbdXUn6ampmVEsA650?e=9Awf3A
 
-¨# READ ME
+# READ ME
+
+🚧 Descripción del Proyecto
+
+Este repositorio contiene el desarrollo completo del proyecto de análisis y modelado predictivo del tráfico vehicular para la Unión Temporal Peajes Nacionales (UTPN).
+Incluye:
+
+* Análisis exploratorio del comportamiento del tráfico.
+* Procesamiento y limpieza del dataset.
+* Entrenamiento de modelos de machine learning.
+* Evaluación de métricas y desempeño.
+
+Dashboard web para visualizar predicciones, errores y comportamiento del tráfico.
+
+Documentación técnica, conclusiones de negocio y recomendaciones.
+
+El objetivo principal del proyecto fue identificar oportunidades para optimizar los costos operativos de los peajes sin afectar su funcionamiento, utilizando modelos predictivos derivados de datos históricos.
+
+🎯 Objetivos del Proyecto
+
+* Comprender los alcances y calidad del dataset disponible.
+* Realizar análisis exploratorio del tráfico por peaje y por sentido.
+* Entrenar modelos predictivos que permitan anticipar el flujo vehicular.
+* Determinar cuáles carriles pueden ser desactivados sin afectar la operación.
+* Crear un dashboard para consulta, análisis y toma de decisiones.
+* Proponer conclusiones de negocio y oportunidades de mejora.
+
+🧠 Modelos de Machine Learning
+
+Se entrenaron modelos independientes para cada peaje y cada sentido:
+
+* Modelos utilizados
+* DecisionTreeRegressor
+* XGBoost Regressor (mejor desempeño general)
+* Métricas implementadas
+* RMSE
+* MAE
+* sMAPE
+* MASE
+* R²
+
+Los modelos permitieron identificar escenarios donde es posible optimizar hasta un 50% de los costos operativos, manteniendo la operación sin afectaciones.
+
+📊 Dashboard del Proyecto
+
+El dashboard web muestra:
+
+* Gráficas de tráfico promedio por tipo de día.
+* RMSE y métricas de cada modelo entrenado.
++ Comparación entre tráfico real y predicho.
+* Selección dinámica de peajes y sentidos.
+* Resumen general del desempeño de todos los modelos.
+* Tecnologías del dashboard
+* Next.js
+* React
+* Recharts / Chart.js
+* Vercel (despliegue)
+
+🧹 Procesamiento y Limpieza de Datos
+
+El dataset fue procesado aplicando:
+
+* Eliminación de columnas irrelevantes o con más del 70% de nulos.
+* Manejo de duplicados.
+* Revisión y corrección de formatos de fecha y hora.
+* Normalización y codificación de atributos categóricos.
+* Selección de atributos clave:
+* Fecha
+* Tráfico por sentido
+* Tipo de día
+
+Se trabajó con un dataset consolidado:
+* 38.833 registros, 44 peajes, periodo entre 2022–2025.
+
+⚙️ Arquitectura Técnica (Actual y Futura)
+Actual
+
+Procesamiento y modelos: Python
+* Visualización y uso: Dashboard en Next.js desplegado en Vercel
+
+Distribución del dataset: OneDrive (por límite de 25MB en GitHub)
+* Futura arquitectura en AWS
+* S3 para almacenamiento de datasets.
+* Lambda / ECS para ejecución de modelos.
+* SageMaker para entrenamiento administrado.
+* RDS o DynamoDB para almacenamiento de predicciones.
+* CloudFront + Amplify para desplegar el dashboard.
+
+📁 Estructura del Repositorio
+/
+├── notebooks/           # Análisis exploratorio y modelado (UTPN.ipynb)
+├── models/              # Modelos entrenados (XGBoost / DecisionTree)
+├── dashboard/           # Código del dashboard (Next.js)
+├── diagrams/            # Diagramas del proyecto
+├── data/                # Dataset (no incluido por límite de 25 MB)
+├── utils/               # Funciones auxiliares
+└── README.md
+
+🔗 Acceso al Dataset
+
+El dataset no se incluyó en el repositorio debido al límite de 25 MB impuesto por GitHub.
+Ha sido habilitado en OneDrive para usuarios con correo institucional de la Universidad de los Andes.
+
+🔗 Enlace al dataset:
+(agregar aquí cuando tengas el link)
+
+🤝 Contribuciones
+
+Las contribuciones son bienvenidas a través de issues o pull requests.
+Sugerencias de mejoras, optimizaciones o nuevos modelos son apreciadas.
+
+📄 Licencia
+
+Este proyecto se comparte bajo la licencia acordada con el cliente.
+Modificar según corresponda (MIT, Apache, Proprietary, etc.).
+
+🧩 Tecnologías y Librerías Utilizadas
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+* Seaborn
+* Joblib / Pickle
+* Datetime
+
+
+📝 Conclusiones
+
+El proyecto demuestra el potencial del uso de datos y modelos predictivos para optimizar la operación de peajes a nivel nacional. La implementación de soluciones basadas en datos permite reducir costos, mejorar procesos y fortalecer la toma de decisiones estratégicas.
+Un desarrollo futuro puede incluir más características, datos en tiempo real y despliegue en una arquitectura cloud completamente escalable.
 
 # ➕ Edición extendida documento 
