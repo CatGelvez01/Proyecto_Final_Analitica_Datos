@@ -43,4 +43,13 @@ La descripción detallada del funcionamiento y la interacción del dashboard se 
 
 # ⚠️ READ ME - Repositorio Modelos 
 
+▶️ IMPORTANTE 
+
+Dado que el dataset excede el límite de 25 MB permitido por GitHub, no fue posible alojarlo en el repositorio. En su lugar, se ha habilitado un enlace a una carpeta de OneDrive, accesible para usuarios con correo institucional de la Universidad de los Andes, desde donde podrán descargar los archivos para su ejecución local. 
+
+Link al proyecto completo 
+* https://uniandes-my.sharepoint.com/:f:/g/personal/ac_gelvez1783_uniandes_edu_co/IgC_NtThaH8ZToDHityGL7FUARKXvvbdXUn6ampmVEsA650?e=9Awf3A
+
+¨# READ ME
+
 # ➕ Edición extendida documento 
