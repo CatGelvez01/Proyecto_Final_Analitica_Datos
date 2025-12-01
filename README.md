@@ -29,6 +29,11 @@ A futuro, el aplicativo podrá evolucionar hacia una arquitectura en la nube bas
 # ▶️ Repositorio Aplicativo WEB
 https://github.com/Pacho2020095/P-ginaWebCienciaDeDatos
 
+# 📈 Dashboard powerBI
+PDF: [Dashboard_EntregaFinal.pdf](https://github.com/user-attachments/files/23843912/Dashboard_EntregaFinal.pdf)
+La descripción detallada del funcionamiento y la interacción del dashboard se incluirá en el video explicativo.
+
+▶️ Explicación Dashboard 
 
 # 💻 Presentación 
 
