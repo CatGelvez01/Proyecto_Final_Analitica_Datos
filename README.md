@@ -23,3 +23,5 @@ https://github.com/Pacho2020095/P-ginaWebCienciaDeDatos
 # 📑 PDF Documento 
 
 # ⚠️ READ ME - Repositorio Modelos 
+
+# ➕ Edición extendida documento 
